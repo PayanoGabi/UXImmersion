@@ -1,0 +1,60 @@
+html{
+  background-color: black;
+}
+header {
+    background-image:url("../images/header-image.png");
+    background-size: contain;
+    height: 425px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-color: black;
+    border-style: double;
+    border-width: 35px;
+    border-color: #26b270;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #black;
+}
+
+header ul li{
+  display:inline;
+}
+header li {
+  border-color: #26b270;
+  border-width: 6px;
+  border-style: dotted;
+}
+header li a {
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  text-align: center;
+
+}
+
+/* Change the link color on hover */
+header li a:hover {
+  background-color: #555;
+  color: white;
+}
+body{
+  background-color: #f5f3f0;
+}
+footer{
+  background-color: brown;
+}
+.experts-content{
+
+}
+.experts-content img {
+  width: 20%;
+
+}
+h1{
+  font-family: 'Teko', sans-serif ;
+  font-size: 30px;
+}
