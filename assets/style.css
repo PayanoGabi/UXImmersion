@@ -42,19 +42,43 @@ header li a:hover {
   color: white;
 }
 body{
-  background-color: #f5f3f0;
+  background-color: #cecece;
+  margin: 50px;
 }
 footer{
-  background-color: brown;
+  background-color: white;
+  padding-bottom: 70px;
+}
+
+button{
+  background-color: #26b270;
+}
+.buttonSection{
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+
 }
 .experts-content{
+  margin-left: 20%;
+  margin-right: 20%;
 
 }
 .experts-content img {
   width: 20%;
+  border-radius: 40px;
+  border-width: 10px;
+  border-style: inset;
+
+}
 
 }
 h1{
   font-family: 'Teko', sans-serif ;
   font-size: 30px;
+  text-align: left;
+}
+.top h1 {
+  margin-left: 20%;
+  margin-right: 20%;
 }
