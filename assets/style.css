@@ -132,6 +132,7 @@ h2{
 }
 p{
   font-family: 'Barlow',sans-serif;
+  font-weight: bold;
 }
 article h2 {
   padding: 2%
