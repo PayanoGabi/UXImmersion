@@ -138,3 +138,49 @@ article img{
 article p {
   padding: 1%;
 }
+@media only screen and (max-width: 600px){
+
+  header{
+    margin: auto;
+    background-size: cover;
+    height: 185px;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  header ul li {
+    margin-top: 15px;
+    height: 10px;
+  }
+  header a {
+    font-size: 15px;
+    margin-top: 3px;
+  }
+  #leftList{
+    margin-top: -15px;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+  }
+
+  article img {
+    margin: auto;
+
+  }
+  article a {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end
+  }
+  .experts-content img {
+    width: 50%;
+    border-width: 7%;
+    border-color: #4f4f6f;
+
+  }
+}
